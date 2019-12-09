@@ -4,7 +4,7 @@
 <li><a href="#/zh-cn/development/">开发文档</a></li>
 <li><a href="#/zh-cn/interact-with-platon/">SDKs</a></li>
 <li><a href="#/zh-cn/technologies/[Chinese-Simplified]-WebAssembly在PlatON的实践">技术文档</a></li>
-<li><a href="#/zh-cn/galaxyRally/README">拉力赛</a></li>
+<li><a href="#/zh-cn/galaxyRally/">拉力赛</a></li>
 <ul>
 
 * 语言
