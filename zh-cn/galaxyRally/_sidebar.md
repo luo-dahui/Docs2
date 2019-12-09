@@ -8,4 +8,5 @@
 	- [离线MTool使用手册](/zh-cn/galaxyRally/technologies/离线MTool使用手册.md)
 	- [链上治理升级指南](/zh-cn/galaxyRally/technologies/链上治理升级指南.md)
 	- [链下数据回滚升级指南](/zh-cn/galaxyRally/technologies/链下数据回滚升级指南.md)
+	- [FAQ](/zh-cn/galaxyRally/technologies/FAQ.md)
 
