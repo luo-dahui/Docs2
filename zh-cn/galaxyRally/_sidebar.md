@@ -24,3 +24,4 @@
 	
 
 - [FAQ](/zh-cn/galaxyRally/FAQ.md)
+
