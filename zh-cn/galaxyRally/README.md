@@ -30,7 +30,7 @@ PlatON环银河拉力赛将进行多赛站的比赛。我们会根据PlatON网�
 我们会在收到报名信息后联系您，审核您的资质，并告知您具体参与的时间。某些赛站开始后可能不允许临时加入，敬请理解。
 
 2. 部署PlatON节点
-详细的节点部署流程，请参阅[节点安装部署文档](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/PlatON%E8%8A%82%E7%82%B9%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E6%89%8B%E5%86%8C.md)。
+详细的节点部署流程，请参阅[节点安装部署文档](./technologies/PlatON节点安装部署手册.md)。
 
 ## 比赛规则和奖励
 1. 参赛节点可通过各种可行策略来提高节点签名率和收益排名以获取积分，同时积极进行各种攻防手段来降低其他节点的排名，保护自身节点稳定。
@@ -53,10 +53,10 @@ PlatON环银河拉力赛将进行多赛站的比赛。我们会根据PlatON网�
 
 - [GitHub](https://github.com/PlatONnetwork/GalaxyRally)：您可以在这里找到本次拉力赛的所有文档、SDK、比赛进展公告，及所有的问题讨论。
 
-   * [社区公告](https://github.com/PlatONnetwork/GalaxyRally/tree/master/announcement)
-   * [PIPs](https://github.com/PlatONnetwork/GalaxyRally/tree/master/PIPs)
-   * [文档](https://github.com/PlatONnetwork/GalaxyRally/tree/master/technologies)
- 
+   * [社区公告](./announcement)
+   * [PIPs](./PIPs)
+   * [文档](./technologies)
+
 - Gitter社区
     * [拉力赛讨论](https://gitter.im/PlatON_Network/Rally)
     * [PIP讨论](https://gitter.im/PlatON_Network/PIP)
@@ -67,29 +67,29 @@ PlatON环银河拉力赛将进行多赛站的比赛。我们会根据PlatON网�
 
 ### 节点
 
-- [PlatON验证节点介绍](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/PlatON验证节点介绍.md)
-- [PlatON节点安装部署手册](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/PlatON节点安装部署手册.md)
-- [在线MTool使用手册](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/在线MTool使用手册.md)
-- [离线MTool使用手册](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/离线MTool使用手册.md)
+- [PlatON验证节点介绍](./technologies/PlatON验证节点介绍.md)
+- [PlatON节点安装部署手册](./technologies/PlatON节点安装部署手册.md)
+- [在线MTool使用手册](./technologies/在线MTool使用手册.md)
+- [离线MTool使用手册](./technologies/离线MTool使用手册.md)
 
 ### 钱包
 
-- [ATON使用手册](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/ATON钱包用户使用手册.md)
+- [ATON使用手册](./technologies/ATON钱包用户使用手册.md)
 
 ### 治理与升级
 
-- [PlatON链上治理升级指南](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/链上治理升级指南.md)
-- [PlatON链下数据回滚升级指南](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/链下数据回滚升级指南.md)
-- [治理介绍](https://github.com/PlatONnetwork/GalaxyRally/blob/master/PIPs/PIP-1.md)
-- [PIP模板](https://github.com/PlatONnetwork/GalaxyRally/tree/master/templates)
+- [PlatON链上治理升级指南](./technologies/链上治理升级指南.md)
+- [PlatON链下数据回滚升级指南](./technologies/链下数据回滚升级指南.md)
+- [治理介绍](./PIPs/PIP-1.md)
+- [PIP模板](./templates)
 
 ### 开发指南
 
-- [JAVA SDK](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/Java-SDK.md)
-- [JS SDK](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/JavaScript-SDK.md)
-- [JSON RPC](https://github.com/PlatONnetwork/GalaxyRally/blob/master/technologies/JSONRPC-SDK.md) 
+- [JAVA SDK](./technologies/Java-SDK.md)
+- [JS SDK](./technologies/JavaScript-SDK.md)
+- [JSON RPC](./technologies/JSONRPC-SDK.md) 
 
 ### 拉力赛FAQ
 
-- [FAQ](https://github.com/PlatONnetwork/GalaxyRally/blob/master/FAQ.md)
+- [FAQ](./FAQ.md)
 
