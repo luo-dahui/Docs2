@@ -52,11 +52,10 @@ PlatON环银河拉力赛将进行多赛站的比赛。我们会根据PlatON网�
 ## 更多信息
 
 - [GitHub](https://github.com/PlatONnetwork/GalaxyRally)：您可以在这里找到本次拉力赛的所有文档、SDK、比赛进展公告，及所有的问题讨论。
-
-   * [社区公告](./announcement)
-   * [PIPs](./PIPs)
-   * [文档](./technologies)
-
+* [社区公告](/zh-cn/galaxyRally/announcement)
+   * [PIPs](/zh-cn/galaxyRally/PIPs)
+   * [文档](/zh-cn/galaxyRally/technologies)
+   
 - Gitter社区
     * [拉力赛讨论](https://gitter.im/PlatON_Network/Rally)
     * [PIP讨论](https://gitter.im/PlatON_Network/PIP)
@@ -67,29 +66,29 @@ PlatON环银河拉力赛将进行多赛站的比赛。我们会根据PlatON网�
 
 ### 节点
 
-- [PlatON验证节点介绍](./technologies/PlatON验证节点介绍.md)
-- [PlatON节点安装部署手册](./technologies/PlatON节点安装部署手册.md)
-- [在线MTool使用手册](./technologies/在线MTool使用手册.md)
-- [离线MTool使用手册](./technologies/离线MTool使用手册.md)
+- [PlatON验证节点介绍](/zh-cn/galaxyRally/technologies/PlatON验证节点介绍.md)
+- [PlatON节点安装部署手册](/zh-cn/galaxyRally/technologies/PlatON节点安装部署手册.md)
+- [在线MTool使用手册](/zh-cn/galaxyRally/technologies/在线MTool使用手册.md)
+- [离线MTool使用手册](/zh-cn/galaxyRally/technologies/离线MTool使用手册.md)
 
 ### 钱包
 
-- [ATON使用手册](./technologies/ATON钱包用户使用手册.md)
+- [ATON使用手册](/zh-cn/galaxyRally/technologies/ATON钱包用户使用手册.md)
 
 ### 治理与升级
 
-- [PlatON链上治理升级指南](./technologies/链上治理升级指南.md)
-- [PlatON链下数据回滚升级指南](./technologies/链下数据回滚升级指南.md)
-- [治理介绍](./PIPs/PIP-1.md)
-- [PIP模板](./templates)
+- [PlatON链上治理升级指南](/zh-cn/galaxyRally/technologies/链上治理升级指南.md)
+- [PlatON链下数据回滚升级指南](/zh-cn/galaxyRally/technologies/链下数据回滚升级指南.md)
+- [治理介绍](/zh-cn/galaxyRally/PIPs/PIP-1.md)
+- [PIP模板](/zh-cn/galaxyRally/templates)
 
 ### 开发指南
 
-- [JAVA SDK](./technologies/Java-SDK.md)
-- [JS SDK](./technologies/JavaScript-SDK.md)
-- [JSON RPC](./technologies/JSONRPC-SDK.md) 
+- [JAVA SDK](/zh-cn/galaxyRally/technologies/Java-SDK.md)
+- [JS SDK](/zh-cn/galaxyRally/technologies/JavaScript-SDK.md)
+- [JSON RPC](/zh-cn/galaxyRally/technologies/JSONRPC-SDK.md) 
 
 ### 拉力赛FAQ
 
-- [FAQ](./FAQ.md)
+- [FAQ](/zh-cn/galaxyRally/FAQ.md)
 
