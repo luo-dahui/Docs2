@@ -75,7 +75,7 @@ PlatON中，参与验证节点进行出块要创建两个钱包。如果已经�
 
 **step2.** 鼠标右键点击 validator_conf.bat， 选择以管理员身份运行
 
-> [!COMMENT|style:flat]
+> [!COMMENT]
 >
 > - 提示 `Please enter the platon node IP address:` 时，请输入 PlatON 节点服务器 ip 地址。
 > - 提示 `Enter your name:` 时，请输入配置 PlatON节点 nginx 时输入的用户名。
