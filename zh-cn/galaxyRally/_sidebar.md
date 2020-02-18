@@ -15,4 +15,6 @@
 	- [链下数据回滚升级指南](/zh-cn/galaxyRally/technologies/链下数据回滚升级指南.md)
 - FAQ
 	- [拉力赛FAQ](/zh-cn/galaxyRally/FAQ.md)
+- 测试告警插件
+	- [测试](/zh-cn/galaxyRally/测试告警插件.md)
 
