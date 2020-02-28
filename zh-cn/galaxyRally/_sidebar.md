@@ -1,5 +1,7 @@
-- [告警插件](/zh-cn/galaxyRally/测试告警插件.md)
-- [图形插件](/zh-cn/galaxyRally/图形插件.md)
+- 告警插件
+	- [测试](/zh-cn/galaxyRally/测试告警插件.md)
+- 图形插件
+	- [测试](/zh-cn/galaxyRally/图形插件.md)
 - 社区公告
 	- [环银河拉力赛赛站3节点接入公告2019-12-09](/zh-cn/galaxyRally/announcement/环银河拉力赛赛站3节点接入公告2019-12-09.md)
 	- [赛站2链清理公告](/zh-cn/galaxyRally/announcement/赛站2链清理公告.md)
