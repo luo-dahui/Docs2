@@ -26,29 +26,20 @@
     <a href="https://www.baidu.com/" rel="external nofollow" target = "_blank"  rel = "nofollow" target = "_blank" title = "IPinfo">developers</a> 
   </navbar> -->
   <script>
+	mermaid.initialize({ startOnLoad: false });	 
     window.$docsify = {
-	plugins: [
-		function(hook, vm) {
-		  hook.ready(function () {
-			mermaid.initialize({startOnLoad: false});
-		  });
-		  hook.doneEach(function () {
-			mermaid.init(undefined,'.mermaid');
-		  });
-		}
-	  ],
-	  markdown: {
-		renderer: {
-		  code: function(code, lang) {
-			var html = '';
-			if(code.match(/^sequenceDiagram/) || code.match(/^graph/) || code.match(/^gantt/)){
-			  html = '<div class="mermaid">' + code + '</div>';
+		markdown: {
+			renderer: {
+			  code: function(code, lang) {
+				if (lang === "mermaid") {
+				  return (
+					'<div class="mermaid">' + mermaid.render(lang, code) + "</div>"
+				  );
+				}
+				return this.origin.code.apply(this, arguments);
+			  }
 			}
-			var hl = Prism.highlight(code, Prism.languages[lang] || Prism.languages.markup)
-			return html + '<pre v-pre data-lang="' + lang + '"><code class="lang-' + lang + '">' + hl + '</code></pre>'
 		  }
-		}
-	  },
 	  
       navbar:true,
 	  // name: '<img src="assets/Group.svg" data-origin="assets/logo.png" alt="Style Dictionary logo" class="sidebar-logo">Style Dictionary',
