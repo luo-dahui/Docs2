@@ -27,24 +27,7 @@
   </navbar> -->
   <script>
     window.$docsify = {
-      navbar:true,
-	  // name: '<img src="assets/Group.svg" data-origin="assets/logo.png" alt="Style Dictionary logo" class="sidebar-logo">Style Dictionary',
-	  coverpage: false,
-	  auto2top: false,
-	  autoHeader: true,
-	  loadNavbar: true,
-	  subMaxLevel: 2,
-          maxLevel: 4,
-	  loadSidebar: true,
-	  mergeNavbar: true,
-          repo: '',
-
-	  themeable: {
-          readyTransition : true, // default
-          responsiveTables: true  // default
-      },
-
-	  plugins: [
+	plugins: [
 		function(hook, vm) {
 		  hook.ready(function () {
 			mermaid.initialize({startOnLoad: false});
@@ -66,12 +49,30 @@
 		  }
 		}
 	  },
+	  
+      navbar:true,
+	  // name: '<img src="assets/Group.svg" data-origin="assets/logo.png" alt="Style Dictionary logo" class="sidebar-logo">Style Dictionary',
+	  coverpage: false,
+	  auto2top: false,
+	  autoHeader: true,
+	  loadNavbar: true,
+	  subMaxLevel: 2,
+          maxLevel: 4,
+	  loadSidebar: true,
+	  mergeNavbar: true,
+          repo: '',
+
+	  themeable: {
+          readyTransition : true, // default
+          responsiveTables: true  // default
+      },
+
+	  
     
 	  alias: {
 	  '/_navbar.md': '/en-us/_navbar.md',
 	  '/_sidebar.md': '/en-us/basics/_sidebar.md',
 	  '/zh-cn/_sidebar.md':'/zh-cn/basics/_sidebar.md',
-
 	  
 
       '/': '/en-us/',
@@ -88,9 +89,6 @@
 	  '/zh-cn/user-interfaces/':'/zh-cn/user-interfaces/[Chinese-Simplified]-命令行界面.md',
 	  '/zh-cn/interact-with-platon/':'/zh-cn/interact-with-platon/[Chinese-Simplified]-JS-SDK.md',
 	  '/zh-cn/technologies/':'/zh-cn/technologies/[Chinese-Simplified]-WebAssembly在PlatON的实践.md',
-
-
-
 
 	 },
 	 
@@ -156,6 +154,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
   <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script type="text/javascript" src="//unpkg.com/mermaid/dist/mermaid.min.js"></script>
+  <script src="//unpkg.com/mermaid/dist/mermaid.min.js"></script>
 </body>
 </html>
