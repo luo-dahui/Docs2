@@ -14,8 +14,13 @@
   <link rel="stylesheet" href="./my-theme.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
   <link rel="stylesheet" href="//unpkg.com/mermaid/dist/mermaid.min.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
+<nav>
+  <a href="#/en-us">EN</a>
+  <a href="#/zh-cn/">中文</a>
+  </nav>
   <div id="app">  </div>
   <div class="cusImg">Developers</div>
   
@@ -131,6 +136,17 @@
 	    }
     }
   </script>
+  <script>
+	  const gitalk = new Gitalk({
+		clientID: 'Github Application Client ID',
+		clientSecret: 'Github Application Client Secret',
+		repo: 'Github repo',
+		owner: 'Github repo owner',
+		admin: ['Github repo collaborators, only these guys can initialize github issues'],
+		// facebook-like distraction free mode
+		distractionFreeMode: false
+	  })
+  </script>
   <script src="//unpkg.com/docsify@4.8.6/lib/docsify.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-scss.min.js"></script>
@@ -144,5 +160,7 @@
   <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/mermaid/dist/mermaid.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 </body>
 </html>
